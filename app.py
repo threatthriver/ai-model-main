@@ -5,8 +5,8 @@ import os
 
 app = Flask(__name__)
 
-# Retrieve the generative model API key from an environment variable
-api_key = os.getenv("GENERATIVE_API_KEY")
+# Retrieve the generative model API key from GitHub Secrets
+api_key = os.getenv("GENERATIVE_API_KEY") or os.getenv("GENERATIVE_API_KEY_FILE")
 
 # Additional information about you
 your_information = {
