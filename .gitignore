@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Configuration files
+config.py
+config.yaml
+*.ini
+
+# API keys and environment files
+*.json  # If your API key is stored in a JSON file
+*.env  # If your API key is stored in an environment file
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
